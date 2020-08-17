@@ -9,7 +9,7 @@ body{
     color: rgb(23, 23, 214);
     text-decoration: overline;
     transition: 700ms;
-    font-family: 'Permanent Marker', cursive;
+/*     font-family: 'Permanent Marker', cursive; */
 }
 h2{
     color: gainsboro;
