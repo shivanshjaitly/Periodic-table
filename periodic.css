@@ -1,0 +1,195 @@
+body{
+    background-color: #E6E8FA;
+    transition: 500ms;
+}
+#table{
+    justify-content: center;
+    text-align: center;
+    font-size: 4em;
+    color: rgb(23, 23, 214);
+    text-decoration: overline;
+    transition: 700ms;
+    font-family: 'Permanent Marker', cursive;
+}
+h2{
+    color: gainsboro;
+   
+}
+.naming{
+    font-size: 12px;
+}
+.symbols{
+    font-style: italic;
+    /* text-align: center; */
+}
+.sblock{
+  
+    margin: 0;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 52px 50px;
+    grid-template-rows: 65px 65px 65px 65px 65px 65px 65px  ;
+    position: absolute;
+    transition: 500ms
+}
+.boxs:hover{
+    width: 100%;
+    cursor: pointer;
+
+}
+.boxs{
+    border: 1px solid black;
+    box-sizing: border-box;
+     width: 60px;
+       font-size: 20px;
+       font-weight: bold;
+     margin: 2px 2px;
+      background-color: rgb(241, 0, 129);
+      transition: 500ms;
+      box-shadow: 12px 12px 12px rgb(233, 65, 155);
+}
+.boxd{
+    border: 1px solid black;
+ box-sizing: border-box;
+    width: 70px;
+    font-size: 20px;
+    font-weight: bold;
+   background-color: rgb(67, 236, 67);
+   margin: 2px 2px;
+   transition: 500ms;
+   box-shadow: 12px 12px 12px rgb(38, 226, 38);
+
+}
+.boxd:hover{
+    width: 100%;
+    cursor: pointer;
+}
+.boxp:hover{
+    width: 100%;
+    cursor: pointer;
+}
+.boxf:hover{
+    width: 100%;
+    cursor: pointer;
+}
+.sblockhead{
+    color: rgb(212, 63, 212);
+ 
+}
+.dblock{
+margin-top: 42px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 61px 61px 61px 61px 61px 61px 61px 61px 61px 61px;
+    grid-template-rows:66px 66px 66px 66px ;
+    justify-content: center ;
+    transition: 500ms;
+    margin-right: 50px;
+   
+}
+.dblockhead{
+margin-top: 1px;
+margin-right: 30px;
+color: rgb(6, 236, 6);
+ 
+    text-align: center;
+    
+   
+}
+
+.pblock{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 57px 68px 72px 72px 64px 47px;
+    grid-template-rows: 67px 67px 67px 67px 67px 67px;
+    position: absolute;
+    top: 135px;
+    right: 4px;
+    margin-right: 40px;
+  
+
+    
+}
+.pblockhead{
+ 
+    color: coral;
+ margin-top: 0;
+ position: absolute;
+ top: 90px;
+ margin-right: 17px;
+    right: 0;
+   
+     
+}
+.boxp{
+    
+    border: 1px solid black;
+    box-sizing: border-box;
+     width: 80px;
+       font-size: 20px;
+       font-weight: bold;
+       margin: 2px 2px;
+       box-shadow: 12px 12px 12px rgb(230, 115, 73);
+          background-color: coral;
+                    
+}
+.fblockhead{
+    color: rgb(69, 78, 211);
+    text-align: center;
+    margin-top: 80px;
+}
+.fblock{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 61px 61px 61px 61px 61px 61px 61px 61px 61px 61px 61px 61px 61px 61px 61px;
+    grid-template-rows: 65px 65px ;
+    justify-content: center;
+    margin-left: 80px;
+    transition: 500ms;
+    margin-right: 118px;
+   
+}
+.boxf{
+    border: 1px solid black;
+    box-sizing: border-box;
+     width: 70px;
+     margin: 2px 2px;
+       font-size: 20px;
+       font-weight: bold;
+       float: right;
+          background-color: rgb(69, 78, 211);
+          transition: 500ms;
+          box-shadow: 12px 12px 12px rgb(56, 56, 223);
+        
+}
+#weight{
+   
+
+    top: 15px;
+    width: 347px;
+   margin: 12px;
+   top: 30px;
+    /* border: 1px solid rgb(29, 25, 25); */
+  
+}
+li{
+    justify-content: center;
+    list-style: none;
+}
+li a{
+    font-family: 'Permanent Marker', cursive;
+    color: black;
+    font-style: italic;
+    text-decoration: none;
+    font-size: 17px;
+}
+a:hover{
+    cursor: pointer;
+    background-color: rgb(227, 241, 19);
+    border-radius: 50%;
+    color: rgb(218, 40, 40);
+}
+a:active{
+    color: darkviolet;
+    background-color: magenta;
+}
