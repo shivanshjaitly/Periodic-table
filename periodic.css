@@ -9,7 +9,7 @@ body{
     color: rgb(23, 23, 214);
     text-decoration: overline;
     transition: 700ms;
- 
+   
 }
 h2{
     color: gainsboro;
@@ -192,4 +192,77 @@ a:hover{
 a:active{
     color: darkviolet;
     background-color: magenta;
+}
+
+@media (min-width:360px) and (max-width:948px){
+    #table{
+        font-size: 50px;
+    }
+    .sblockhead{
+        float: left;
+        top: 20px;
+    }
+    .sblock{
+        position: absolute;
+        top: 201px;
+        
+    }
+    .pblock{
+        position: absolute;
+        top: 705px;
+
+    }
+    .pblockhead{
+        top: 657px;
+        margin-left: 0;
+        float: left;
+        color: maroon;
+    }
+    .dblock{
+        position: absolute;
+        top:1222px;
+
+    }
+    .dblockhead{
+        position: absolute;
+        bottom: -58%;
+        color: orange;
+    }
+    .fblock{
+        position: absolute;
+        bottom: -138%;
+        margin-left: 0;
+
+    }
+    .fblockhead{
+        position: absolute;
+        bottom: -120%;
+    }
+    a{
+        position: absolute;
+        bottom: -157%;
+        margin-left: -136px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
